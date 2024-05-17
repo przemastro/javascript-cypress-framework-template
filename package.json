@@ -5,7 +5,7 @@
   "main": "index.js",
   "start": "react-scripts --openssl-legacy-provider start",
   "scripts": {
-    "webTests": "npx cypress run --spec 'cypress/integration/XHUB/specs/*.cy.js' --env allure=true"
+    "webTests": "npx cypress run --spec 'cypress/integration/Example/specs/*.cy.js' --env allure=true"
   },
   "author": "Mr. Przemek",
   "license": "ISC",
