@@ -23,7 +23,7 @@ From the main folder
 
       > npm run webTests
 
-If you don't want to run all test suite, then change in package.json file following line e.g. "webTests": "npx cypress run --spec 'cypress/integration/Example/specs/accordionBlockTests.cy.js' --env allure=true",
+If you don't want to run all test suite, then change in package.json file following line e.g. "webTests": "npx cypress run --spec 'cypress/integration/Example/specs/loginTests.cy.js' --env allure=true",
 
 ### Generate Allure Report
 
