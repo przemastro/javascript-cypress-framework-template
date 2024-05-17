@@ -1,0 +1,31 @@
+{
+  "baseUrl": "",
+  "projectId": "someId",
+  "experimentalSessionAndOrigin":false,
+  "pageLoadTimeout":120000,
+  "defaultCommandTimeout":10000,
+  "experimentalSourceRewriting":false,
+  "chromeWebSecurity":false,
+  "viewportHeight": 1080,
+  "viewportWidth": 1920,
+  "requestTimeout": 40000,
+  "retryOnStatusCodeFailure":true,
+  "video":false,
+  "videoUploadOnPasses":false,
+  "videoCompression": 15,
+  "retries": {
+    "runMode": 0,
+    "openMode": 0
+  },
+  "includeShadowDom":false,
+  "ignoreTestFiles": [
+    "**/__snapshots__/*",
+    "**/__image_snapshots__/*"
+  ],
+  "reporter": "mochawesome",
+  "reporterOptions": {
+    "reportFilename": "[status]_[datetime]-[name]-report-prep",
+    "timestamp": "longDate",
+    "quiet": true
+  }
+}
