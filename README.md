@@ -7,7 +7,6 @@ If missing please install following on your machine (MacOS):
      > brew install node@(version number)
      > brew install allure@(version number)
      > npm install
-     > npm install sharp
 
 My configuration: node(v14.21.3), npm(6.14.18), allure(2.24.1), cypress(9.7.0)
 
